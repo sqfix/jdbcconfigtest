@@ -1,0 +1,7 @@
+CREATE DATABASE IF NOT EXISTS jdjdmyown;
+USE mkyongjava;
+CREATE TABLE IF NOT EXISTS Customer(
+  cust_Id INTEGER PRIMARY KEY,
+  name VARCHAR(25),
+  age INTEGER
+)
